@@ -1,0 +1,44 @@
+body {
+  font-family: 'Architects Daughter', cursive;
+  background-image: url(concert.jpg);
+  background-size:cover;
+}
+
+h1 {
+  color: #FFED2D;
+  text-align: center;
+  font-size: 45px;
+}
+h4 {
+  color: #FFED2D;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 35px;
+}
+
+.buttons {
+  text-align: center;
+}
+#play {
+  color: #FFED2D;
+}
+#prev {
+  color: #FFED2D;
+  margin: 20px;
+}
+
+#pause {
+  color: #FFED2D;
+  margin: 20px;
+
+}
+#next {
+  color: #FFED2D;
+  margin: 20px;
+}
+
+#textField {
+
+  text-align: center;
+
+}
