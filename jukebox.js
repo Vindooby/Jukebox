@@ -33,16 +33,16 @@ Jukebox.prototype.play = function(){
 Jukebox.prototype.addTrack=function(track,name,cover){
   this.audioList.push(track);
   this.nameList.push(name);
-  this.coverList.push(albumCover)
+  this.coverList.push(cover)
 };
 // the rest of your prototype methods would go here
 
-// creates a new Jukebox object
+//  creates a new Jukebox object
 // this variable has global scope after this point
 var jukebox = new Jukebox();
 jukebox.addTrack("chance.mp3","Good Ass Intro","Acidrap.jpg")
-jukebox.addTrack("jcole.mp3", "03-Adolesence", "colealbum.jpg")
-jukebox.addTrack("GOMD.jpg", "GOMD", "colealbum.jpg")
+jukebox.addTrack("Jcole.mp3", "03-Adolesence", "colealbum.jpg")
+jukebox.addTrack("GOMD.mp3", "GOMD", "colealbum.jpg")
 // adds an event listener for when you click the play button
 
 var i=0;
@@ -116,17 +116,5 @@ nextButton.addEventListener("click",function(event){
   jukebox.next();
 })
 
-
-//
-// playButton.addEventListener("click", function(event){
-//  // prevents link from going to the next page
-//  event.preventDefault()
-
- // the rest of the code
- //  for what happens when you click the play button goes here
-
- // uses the jukebox object to play the music file
-//  jukebox.play()
-// })
 
 // the rest of your event listeners would go here
